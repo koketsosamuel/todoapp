@@ -1,8 +1,10 @@
 const express = require('express')
 const bodyParse = require('body-parser')
 const mongoose = require('mongoose')
-const todoRoutes = require('./routes/todoRoutes')
 const cors = require('cors')
+
+// MY MODULES
+const todoRoutes = require('./routes/todoRoutes')
 
 // MONGOSE CONECTION
 mongoose.connect(' mongodb://127.0.0.1:27017/todoapp', { useNewUrlParser: true })

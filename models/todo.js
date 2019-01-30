@@ -5,7 +5,7 @@ let todoSchema = mongoose.Schema({
 })
 
 
-let Todos = mongoose.model('Todos', todoSchema)
+let Todo = mongoose.model('Todo', todoSchema)
 
 
-module.exports = Todos
+module.exports = Todo
